@@ -1,6 +1,6 @@
 module.exports = {
     title: "Workshop Azure Pipelines",
-    description: "Setup your first Azure Pipelines",
+    description: "Create your first Azure Pipelines",
 //    base: "/workshop-azure-pipelines/",
     port: 3000,
     themeConfig: {
@@ -21,7 +21,8 @@ module.exports = {
             '/5_VARIABLES_PARAMETERS',
             '/6_REDUCE_BUILDING_TIME',
             '/7_SECURE_VARIABLE',
-            '/8_TEMPLATING'
+            '/8_TEMPLATING',
+            '/9_JOB_MATRIX'
         ]
     }
 };

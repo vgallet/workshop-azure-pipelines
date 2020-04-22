@@ -15,7 +15,7 @@ stages :
 
 Next, by using [Maven Task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/build/maven?view=azure-devops) you are going to build the application using Maven goals `clean package` and a JDK 1.8. Don’t forget to set `publishJUnitResults` to true.
 
-As you may noticed, now your build is failing as there is test failure. You can see the detail of tests executions in Tests View.
+Now your build is failing as there is test failure. You can see the details of tests executions in Tests View.
 
 ![Azure Pipelines Test View](2020-04-18_10-48.png)
 

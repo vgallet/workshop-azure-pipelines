@@ -1,8 +1,8 @@
 # Templating
 
-To facilitate maintainability of our pipeline, Azure Pipelines offers the possibility to create template to mutualize common tasks.
+To facilitate the maintainability of your pipeline, Azure Pipelines offers the possibility to create template to mutualize common tasks.
 
-Let’s create a file `print-variable.yml` with this content:
+Create a file `print-variable.yml` with this content:
 
 ```yaml
 parameters:
@@ -22,7 +22,9 @@ Next, you can use it to replace the task that print the variable `my-password`.
     VARIABLE: $(my-password)
 ```
 
-That’s it! Good to know templates can be used to mutualize steps, jobs and stages.
+:::tip
+Templates can be used to mutualize steps, jobs and stages.
+:::
 
 <details>
 <summary>Git branch</summary>
