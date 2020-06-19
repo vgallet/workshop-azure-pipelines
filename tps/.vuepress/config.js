@@ -22,7 +22,8 @@ module.exports = {
             '/6_REDUCE_BUILDING_TIME',
             '/7_SECURE_VARIABLE',
             '/8_TEMPLATING',
-            '/9_JOB_MATRIX'
+            '/9_JOB_MATRIX',
+            '/10_VOCABULARY'
         ]
     }
 };
